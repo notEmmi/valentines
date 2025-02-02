@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+}
+
+.envelope {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: #f8c9c9;
+    border: 2px solid red;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stamp {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 75px;
+}
+
+.from-to {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.kirby-heart {
+    margin-top: 20px;
+    width: 200px;
+    max-width: 90%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: red;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+	font-size: 20px;
+}
+
+.open-letter-button {
+    border: none;
+}
+
+.letter, .the-date {
+	display: none;
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 2px solid red;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.yes-no-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.yes-button, .no-button {
+    border: 1px solid red;
+}
+
+.kirby-knife, .nerd, .not-funny, .gun, .cat-kiss {
+    width: 200px;
+    max-width: 90%;
+}
+
+.on-no-1, .on-no-2, .on-no-3 {
+    display: none;
+}
+
+.cat-jiggy {
+    display: none;
+    width: 500px;
+}

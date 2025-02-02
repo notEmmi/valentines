@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Be My Valentine</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="envelope">
+
+		<!-- Heart stamp -->
+		<img src="images/heart_stamp.png" alt="heart" class="stamp">
+
+		<!-- Front of the envelope -->
+		<div class="from-to">
+			<p>From: <br> Your wifey >;)</p>
+			<p>To: <br> Xiu <3 </p>
+		</div>
+
+		<img src="images/kirby_heart.png" alt="kirby heart" class="kirby-heart">
+
+		<!-- Button to Open Letter -->
+		<button class="open-letter-button" onclick="revealMessage()">Click to Open Letter</button>
+	</div>
+
+	
+	<div class="letter">
+		
+		<p>Will You Be My Valentine? ❤️</p>
+
+		<!-- Nothing has been pressed yet -->
+		<div class="nothing-yet">
+			<img src="images/kirby_knife.jpg" alt="kirby knife" class="kirby-knife">
+			<p> Choose carefully. </p>
+		</div>
+
+		<!-- On each No clicks -->
+		<div class="on-no-1">
+			<p> Ermmm, sir. I think you pressed the wrong button. </p>
+			<img src="images/nerd_emote.gif" alt="nerd gif" class="nerd">
+		</div>
+
+		<div class="on-no-2">
+			<p> Okay. Haha, very funny. Now fr now. </p>
+			<img src="images/done_emoji.jpg" alt="not funny emoji" class="not-funny">
+		</div>
+
+		<div class="on-no-3">
+			<img src="images/gun_emote.gif" alt="gun gif" class="gun">
+			<p> You have no choice. </p>
+		</div>
+
+		<!-- Yes/No Buttons -->
+		<div class="yes-no-buttons">
+			<button class="yes-button" onclick="yay()">Yes</button>
+			<button class="no-button" onclick="nay()">No</button>
+		</div>
+	</div>
+
+	<img src="images/cat_jiggy.gif" alt="cat shaking belly" class="cat-jiggy">
+
+	<div class="the-date">
+		<p>Yay! 🎉 You’re officially Emmi’s Valentine! 💖</p>
+		<img src="images/cat_kiss.jpg" alt="Cute cats kissing" class="cat-kiss">
+		<p>Congratulations! You’ve unlocked a special date with Emmi (aka *me*) on February 14, 2025. 💕</p>
+		
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
